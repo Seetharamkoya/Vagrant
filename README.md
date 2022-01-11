@@ -1,7 +1,7 @@
 ## Vagrant VM'S
 VM with Vagrant Boxes from the vagrant cloud
-1. Create a Directory with the Any folder "VAGRANT" and also creat a file for vagrant boxes from the cloud using git bash.\
-2. ## Commands
+## Commands
+1. Create a Directory with the Any folder "VAGRANT" and also creat a file for vagrant boxes from the cloud using git bash.
 3. Vagrant init "Vagrant box name from the cloud" 
 4. (It will create the a vagrant file in the folder)
 5. vagrant up
