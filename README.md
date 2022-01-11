@@ -16,4 +16,5 @@ VM with Vagrant Boxes from the vagrant cloud
 
 ## To connect the public network with VM
 Usually, NAT connection is shared with the VM from the Virtual Box. So, to enable to public network "router/wifi -ip" to the VM we need to enable "Bridge connection" to get public IP.
-This can be done in the "Editing the Vagrant file of the VM" using Notepad(seting the  config.vm.network "public_network")
+This can be done in the "Editing the Vagrant file of the VM" using Notepad(seting the  config.vm.network "public_network")\\
+To save the chanes with the runningVM using the "vagrant reload"(command) 
