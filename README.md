@@ -13,3 +13,7 @@ VM with Vagrant Boxes from the vagrant cloud
 11. (To close the VM completely)
 12. agrant destroy
 13. (to delete the VM)
+
+## To connect the public network with VM
+Usually, NAT connection is shared with the VM from the Virtual Box. So, to enable to public network "router/wifi -ip" to the VM we need to enable "Bridge connection" to get public IP.
+This can be done in the "Editing the Vagrant file of the VM" using Notepad(seting the  config.vm.network "public_network")
