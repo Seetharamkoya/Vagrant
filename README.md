@@ -39,4 +39,4 @@ To save the chanes with the runningVM using the "vagrant reload"(command) \
 15. firewall-cmd --list-all
 16. We can acess/validate the the "apche2 webserver" in the browser.
 17. ## nodejs installation
-18. We can install in 3 ways https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/
+18. We can install in [Node js](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/) 3 ways.
