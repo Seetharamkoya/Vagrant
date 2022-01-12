@@ -22,19 +22,19 @@ To save the chanes with the runningVM using the "vagrant reload"(command) \
 ![Screenshot (255)](https://user-images.githubusercontent.com/38424194/149036114-e2ce70af-bb88-4e19-87ae-09685f0fbcc8.png)
 
 ### To install apache2, nodejs and MongoDB in Ubuntu
-Sudo apt update\
-create a user and password for the and enable "passwordauthentation yes" in vi /etc/ssh/sshd_config \
-edit the "sudoers" and give 744 previlages to the user to install.
-apt install apache2 -y
-systemctl status apache2
-systemctl start apache2
-systemctl enable apache2
-apt install firewall* -y
-systemctl status firewalld
-systemctl start firewalld
-systemctl enable firewalld
-firewall-cmd --zone=public --add-port=8080/tcp --permanent
-firewall-cmd --zone=public --add-service=http --permanent
-firewall-cmd --reload
-firewall-cmd --list-all
-We can acess/validate the the apche2 webserver in the browser.
+1. Sudo apt update\
+2. create a user and password for the and enable "passwordauthentation yes" in vi /etc/ssh/sshd_config \
+3. edit the "sudoers" and give 744 previlages to the user to install.
+4. apt install apache2 -y
+5. systemctl status apache2
+6. systemctl start apache2
+7. systemctl enable apache2
+8. apt install firewall* -y
+9. systemctl status firewalld
+10. systemctl start firewalld
+11. systemctl enable firewalld
+12. firewall-cmd --zone=public --add-port=8080/tcp --permanent
+13. firewall-cmd --zone=public --add-service=http --permanent
+14. firewall-cmd --reload
+15. firewall-cmd --list-all
+16. We can acess/validate the the apche2 webserver in the browser.
