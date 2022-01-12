@@ -21,3 +21,20 @@ To save the chanes with the runningVM using the "vagrant reload"(command) \
 
 ![Screenshot (255)](https://user-images.githubusercontent.com/38424194/149036114-e2ce70af-bb88-4e19-87ae-09685f0fbcc8.png)
 
+### To install apache2, nodejs and MongoDB in Ubuntu
+Sudo apt update
+create a user and password for the and enable "passwordauthentation yes" in vi /etc/ssh/sshd_config 
+edit the "sudoers" and give 744 previlages to the user to install.
+apt install apache2 -y
+systemctl status apache2
+systemctl start apache2
+systemctl enable apache2
+apt install firewall* -y
+systemctl status firewalld
+systemctl start firewalld
+systemctl enable firewalld
+firewall-cmd --zone=public --add-port=8080/tcp --permanent
+firewall-cmd --zone=public --add-service=http --permanent
+firewall-cmd --reload
+firewall-cmd --list-all
+We can acess/validate the the apche2 webserver in the browser.
