@@ -37,4 +37,4 @@ To save the chanes with the runningVM using the "vagrant reload"(command) \
 13. firewall-cmd --zone=public --add-service=http --permanent
 14. firewall-cmd --reload
 15. firewall-cmd --list-all
-16. We can acess/validate the the ## "apche2 webserver" in the browser.
+16. We can acess/validate the the ##"apche2 webserver" in the browser.
