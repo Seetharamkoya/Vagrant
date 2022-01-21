@@ -41,3 +41,4 @@ To save the chanes with the runningVM using the "vagrant reload"(command) \
 17. ## Nodejs installation(Application)
 18. We can install in [Node js](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/) 3 ways.
 19. ## MongoDB installation(Database)
+SSL CERTIFICATION INSTALLATION AND CONFIGURATION (https://devtutorial.io/how-to-install-ssl-certificate-for-apache-on-ubuntu-server-20-04-p2168.html)
